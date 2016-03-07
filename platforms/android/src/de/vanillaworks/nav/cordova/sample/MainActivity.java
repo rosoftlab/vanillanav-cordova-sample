@@ -17,7 +17,7 @@
        under the License.
  */
 
-package io.cordova.hellocordova;
+package de.vanillaworks.nav.cordova.sample;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

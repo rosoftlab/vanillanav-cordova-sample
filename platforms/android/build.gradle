@@ -86,7 +86,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "cordova-plugin-vanillanav/hellocordova-build.gradle"
+apply from: "cordova-plugin-vanillanav/sample-build.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
