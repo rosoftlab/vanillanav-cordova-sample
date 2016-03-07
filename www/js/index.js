@@ -34,6 +34,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+          document.getElementById("nav").addEventListener("click", function(){
+            vanillaNav.navigate(9068, 20372);
+        });
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
