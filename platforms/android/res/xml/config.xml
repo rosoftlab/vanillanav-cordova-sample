@@ -5,6 +5,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="VanillaNav">
+        <param name="android-package" value="net.rosoftlab.nav.loader.VanillaNavCordovaPlugin" />
+    </feature>
     <allow-intent href="market:*" />
     <name>HelloCordova</name>
     <description>
