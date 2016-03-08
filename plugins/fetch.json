@@ -15,22 +15,22 @@
         "is_top_level": false,
         "variables": {}
     },
-    "cordova-plugin-vanillanav": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/rosoftlab/vanillanav-cordova.git",
-            "subdir": ".",
-            "ref": "01961e196ded5473da154f305fe526d3362bacfa"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-device": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-device"
         },
         "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-vanillanav": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rosoftlab/vanillanav-cordova.git",
+            "subdir": ".",
+            "ref": "8dbfcc309d9b6a0891a004f0c166d27f1033dbc5"
+        },
+        "is_top_level": true,
         "variables": {}
     }
 }

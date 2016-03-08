@@ -1,12 +1,12 @@
 cordova.define("cordova-plugin-vanillanav.device", function(require, exports, module) {
 module.exports.navigate = function(venueId, referenceId){
-	// if(device.platform === 'Android') {
-	// 	var successCallback = function(){
+	if(device.platform === 'Android') {
+		var successCallback = function(){
 
-	// 	};
-	// 	var errorCallback = successCallback;
-	// 	cordova.exec(successCallback, errorCallback, "VanillaNav", "navigate", [venueId, referenceId]);
-	// } else if(device.platform === 'iOS') {
+		};
+		var errorCallback = successCallback;
+		cordova.exec(successCallback, errorCallback, "VanillaNav", "navigate", [venueId, referenceId]);
+	} else if(device.platform === 'iOS') {
 		var scheme = "vanillanav://navigateTo?venueId=" + venueId + "&referenceId=" + referenceId;
 
 		appAvailability.check(
@@ -20,7 +20,7 @@ module.exports.navigate = function(venueId, referenceId){
                 window.open('itms-apps://itunes.apple.com/ro/app/vanillanav/id1007116984?mt=8', '_system');
 		    }
 		);
-	// }
+	}
 
 }
 
