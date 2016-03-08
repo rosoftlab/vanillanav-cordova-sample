@@ -13,6 +13,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"VanillaNav\"><param name=\"android-package\" value=\"net.rosoftlab.nav.loader.VanillaNavCordovaPlugin\" /></feature>",
                             "count": 1
                         }
@@ -24,6 +28,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
         },
         "cordova-plugin-vanillanav": {
             "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
@@ -37,6 +44,13 @@
             "runs": true
         },
         {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
             "file": "plugins/cordova-plugin-vanillanav/www/vn.js",
             "id": "cordova-plugin-vanillanav.device",
             "clobbers": [
@@ -46,6 +60,7 @@
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.1",
+        "cordova-plugin-device": "1.1.1",
         "cordova-plugin-vanillanav": "0.1"
     }
 }

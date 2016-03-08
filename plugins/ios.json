@@ -15,6 +15,9 @@
         }
     },
     "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
+        },
         "cordova-plugin-appavailability": {
             "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
         }
