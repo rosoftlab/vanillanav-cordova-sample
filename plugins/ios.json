@@ -1,0 +1,22 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
+        },
+        "cordova-plugin-vanillanav": {
+            "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-appavailability": {
+            "PACKAGE_NAME": "de.vanillaworks.nav.cordova.sample"
+        }
+    }
+}

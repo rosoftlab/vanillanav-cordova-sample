@@ -7,11 +7,20 @@
         "is_top_level": true,
         "variables": {}
     },
+    "cordova-plugin-appavailability": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-appavailability"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
     "cordova-plugin-vanillanav": {
         "source": {
             "type": "git",
             "url": "https://github.com/rosoftlab/vanillanav-cordova.git",
-            "subdir": "."
+            "subdir": ".",
+            "ref": "ios_plugin2"
         },
         "is_top_level": true,
         "variables": {}

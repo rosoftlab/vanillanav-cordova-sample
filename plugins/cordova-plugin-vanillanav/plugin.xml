@@ -19,4 +19,11 @@
           </config-file>
           <source-file src="src/VanillaNavCordovaPlugin.java" target-dir="src/net/rosoftlab/nav/loader"/>
         </platform>
+        
+        <platform name="ios">
+            <config-file target="config.xml" parent="/*">
+            </config-file>
+            <dependency id="cordova-plugin-appavailability" subdir="plugins/appavailability" />
+        </platform>
+        
     </plugin>
