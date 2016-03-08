@@ -15,8 +15,8 @@
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		2B46639086EF4D53B1906446 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3EF92D4DBA4E0EAA511F73 /* CDVDevice.m */; };
-		81034576476643CF8A684562 /* AppAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 203614B50EF24D70BD7C551F /* AppAvailability.m */; };
+		93D15C3693B04690AC550702 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C773FB89F3429BAEB9DA3B /* CDVDevice.m */; };
+		763700238DF747CC9E3A161C /* AppAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463518EDBDC4CEFBBA73E38 /* AppAvailability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "VanillaNav Sample/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		0B3EF92D4DBA4E0EAA511F73 /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5FF1636256EB449393BD0435 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		203614B50EF24D70BD7C551F /* AppAvailability.m */ = {isa = PBXFileReference; name = "AppAvailability.m"; path = "cordova-plugin-appavailability/AppAvailability.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C102BAE520C3407D86F7BF6B /* AppAvailability.h */ = {isa = PBXFileReference; name = "AppAvailability.h"; path = "cordova-plugin-appavailability/AppAvailability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		34C773FB89F3429BAEB9DA3B /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		16AD36DADA1B47FDAAB06818 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4463518EDBDC4CEFBBA73E38 /* AppAvailability.m */ = {isa = PBXFileReference; name = "AppAvailability.m"; path = "cordova-plugin-appavailability/AppAvailability.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5F7F41D2516B46E1870F539D /* AppAvailability.h */ = {isa = PBXFileReference; name = "AppAvailability.h"; path = "cordova-plugin-appavailability/AppAvailability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,10 +162,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				0B3EF92D4DBA4E0EAA511F73 /* CDVDevice.m */,
-				5FF1636256EB449393BD0435 /* CDVDevice.h */,
-				203614B50EF24D70BD7C551F /* AppAvailability.m */,
-				C102BAE520C3407D86F7BF6B /* AppAvailability.h */,
+				34C773FB89F3429BAEB9DA3B /* CDVDevice.m */,
+				16AD36DADA1B47FDAAB06818 /* CDVDevice.h */,
+				4463518EDBDC4CEFBBA73E38 /* AppAvailability.m */,
+				5F7F41D2516B46E1870F539D /* AppAvailability.h */,
 			);
 			name = Plugins;
 			path = "VanillaNav Sample/Plugins";
@@ -280,8 +280,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				2B46639086EF4D53B1906446 /* CDVDevice.m in Sources */,
-				81034576476643CF8A684562 /* AppAvailability.m in Sources */,
+				93D15C3693B04690AC550702 /* CDVDevice.m in Sources */,
+				763700238DF747CC9E3A161C /* AppAvailability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
