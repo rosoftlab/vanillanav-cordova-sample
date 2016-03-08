@@ -20,7 +20,7 @@
             "type": "git",
             "url": "https://github.com/rosoftlab/vanillanav-cordova.git",
             "subdir": ".",
-            "ref": "ios_plugin2"
+            "ref": "6e2daab43cc37d86dfe570dd4b666b3bc2146091"
         },
         "is_top_level": true,
         "variables": {}
