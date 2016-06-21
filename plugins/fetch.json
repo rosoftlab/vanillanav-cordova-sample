@@ -26,7 +26,7 @@
     "cordova-plugin-vanillanav": {
         "source": {
             "type": "git",
-            "url": "https://github.com/rosoftlab/vanillanav-cordova.git",
+            "url": "https://github.com/rosoftlab/vanillanav-sdk-cordova.git",
             "subdir": "."
         },
         "is_top_level": true,
